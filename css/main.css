@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+/* common style start */
+.col-sm-12 {
+    margin-bottom: 80px;
+}
+
+/* common btn */
+.btn {
+    position: relative;
+    font-weight: bold;
+}
+
+.btn:before {
+    content: '';
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: #000;
+}
+
+.btn img {
+    margin-left: 8px;
+    margin-bottom: 3px;
+    width: 18px;
+}
+
+/* common style end */
+
+/* carousel style */
+.carousel-item>img {
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 10%;
+    left: 5%;
+    right: 0;
+}
+
+.carousel-caption h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    color: #141414
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #141414;
+}
+
+/* section start */
+section {
+    padding: 80px 30px;
+    border-bottom: 1px solid #141414;
+}
+
+/* main title */
+section h2 {
+    font-size: 60px;
+    margin: 0 0 60px;
+}
+
+/* sub title */
+section h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 14px;
+}
+
+/* common sub text style */
+section p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* class sub text style */
+section .row .sub_text {
+    font-size: 18px;
+    color: #141414;
+}
+
+/* img scale */
+section img {
+    width: 100%;
+}
+
+/* app book */
+.appbook .img {
+    text-align: center;
+}
+
+.appbook img {
+    width: 300px;
+}
+
+.appbook .qrcode {
+    display: flex;
+    margin-top: 100px;
+}
+
+.appbook .qrcode .box {
+    width: 50%;
+    text-align: center;
+}
+
+.appbook .qrcode .box h3 {
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.appbook .qrcode .box img {
+    width: 50%;
+}
+
+/* section btn align */
+section .container-fluid>p {
+    text-align: center;
+}
+
+/* section btn font size */
+section .container-fluid>p a {
+    font-size: 24px;
+}
+
+/* .archive btn style */
+.archive .row .col-md-6 {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+/* videos */
+.videos h3 {
+    font-size: 22px;
+    line-height: 1.3;
+}
+
+.videos .row a {
+    position: relative;
+}
+
+.videos .row>.col-sm-12>a:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/play_btn.png');
+    background-size: contain;
+    opacity: 0.8;
+}
+
+.videos img {
+    transition: 0.3s;
+}
+
+.videos img:hover {
+    opacity: 0.9;
+}
+
+/* section end */
+
+
+/* media query 768px */
+@media screen and (max-width : 768px) {
+    .carousel-caption {
+        top: 10px;
+        left: 30px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+
+    /* seciton */
+    section {
+        padding: 50px 15px;
+    }
+
+    section h2 {
+        font-size: 40px;
+        margin: 0 0 30px;
+    }
+
+    section h3 {
+        font-size: 16px;
+    }
+
+    section p {
+        font-size: 12px;
+    }
+
+    section .row .sub_text {
+        font-size: 14px;
+    }
+
+    .appbook .qrcode .box h3 {
+        font-size: 21px;
+    }
+}

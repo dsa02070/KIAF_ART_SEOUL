@@ -1,0 +1,251 @@
+@charset "utf-8";
+
+/* main section */
+section {
+    min-height: 800px;
+    padding: 80px 30px;
+    box-sizing: border-box;
+}
+
+/* title */
+section .row h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+/* sub text */
+section .row .text p {
+    line-height: 36px;
+}
+
+section .row .text .title {
+    font-size: 36px;
+    margin-top: 100px;
+}
+
+section .row .text input {
+    width: 200px;
+    height: 50px;
+    font-size: 13px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: #141414;
+    border: 1px solid #ccc;
+}
+
+section .row .text button {
+    width: 100px;
+    height: 50px;
+    font-size: 13px;
+    line-height: 50px;
+    color: white;
+    background: #000;
+}
+
+/* banner */
+section .row .banner img {
+    width: 100%;
+}
+
+/* insights html start */
+.insights .text {
+    text-align: right;
+}
+
+section .select h2 {
+    position: relative;
+    margin-right: 40px;
+}
+
+section .select h2:after {
+    content: '';
+    position: absolute;
+    top: calc(50% - 15px);
+    right: -35px;
+    width: 1px;
+    height: 30px;
+    background: #ccc;
+}
+
+.select {
+    display: flex;
+}
+
+.select ul {
+    display: flex;
+}
+
+.select ul li {
+    margin-right: 32px;
+    color: #666;
+}
+
+.select ul li:last-child {
+    margin-right: 0;
+}
+
+.select ul li.on {
+    font-weight: 500;
+    color: #141414;
+}
+
+.select ul li a {
+    font-size: 14px;
+}
+
+/* list */
+.list {
+    padding: 0;
+}
+
+.list li {
+    margin-bottom: 30px;
+}
+
+.list li h3 {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.list li p {
+    font-size: 12px;
+    color: #666;
+}
+
+.list img {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.list img:hover {
+    opacity: 0.8;
+}
+
+/* more btn */
+.more {
+    text-align: center;
+    padding: 20px 0;
+    color: #666;
+    background: #f1f1f1;
+}
+
+/* insights html end */
+
+/* vip html start */
+.vip .text {
+    margin-bottom: 40px;
+}
+
+.vip .text p {
+    margin-bottom: 0;
+}
+
+.title_text {
+    margin-top: 40px;
+    color: #888;
+}
+
+/* vip html end */
+
+/* partners html start */
+.partners .list {
+    padding: 20px 0 40px;
+}
+
+.partners .title_text {
+    margin-top: 0;
+}
+
+.partners .list .row {
+    border-bottom: 1px solid #ccc;
+}
+
+.partners .list img {
+    width: 100%;
+}
+
+/* partners html end */
+
+/* contact html start */
+.contact .text_list>div {
+    margin-bottom: 60px;
+}
+
+.contact .text_list>div:last-child {
+    margin-bottom: 0;
+}
+
+/* contact html end */
+
+
+/* media query 991px */
+@media screen and (max-width:991px) {
+    section .row h2 {
+        font-size: 20px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    section .row .text input {
+        width: 140px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 40px;
+    }
+
+    section .row .text button {
+        width: 80px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    /* insights html */
+    section .select .row h2 {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    section .select h2:after {
+        display: none;
+    }
+
+    .insights .text {
+        text-align: left;
+        margin: 20px 0 40px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .select {
+        display: block;
+    }
+
+    .select ul {
+        padding: 0;
+    }
+
+    .select ul li {
+        margin-right: 14px;
+    }
+
+    .select ul li a {
+        font-size: 13px;
+    }
+
+    /* vip */
+    .vip .row .select h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        padding: 0;
+        border: none;
+    }
+
+    .vip .row .select ul {
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+    }
+}
