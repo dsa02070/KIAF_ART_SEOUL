@@ -11,6 +11,7 @@ section .row {
 section .row h2 {
     font-size: 40px;
     margin-bottom: 40px;
+    color: #006633;
 }
 
 section .row form>div {
@@ -78,7 +79,7 @@ section .row .check-sign input {
 }
 
 .login-btn button:first-child {
-    background: #15a0ff;
+    background: #006633;
 }
 
 /* option */

@@ -58,13 +58,14 @@
 /* section start */
 section {
     padding: 80px 30px;
-    border-bottom: 1px solid #141414;
+    border-bottom: 1px solid #aaa;
 }
 
 /* main title */
 section h2 {
-    font-size: 60px;
+    font-size: 50px;
     margin: 0 0 60px;
+    color: #006633;
 }
 
 /* sub title */

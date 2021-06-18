@@ -12,6 +12,7 @@ section .row h2 {
     font-size: 32px;
     font-weight: 500;
     margin-bottom: 60px;
+    color: #006633;
 }
 
 /* sub text */
@@ -55,7 +56,7 @@ section .row .banner img {
 
 section .select h2 {
     position: relative;
-    margin-right: 40px;
+    margin-right: 32px;
 }
 
 section .select h2:after {
@@ -77,7 +78,7 @@ section .select h2:after {
 }
 
 .select ul li {
-    margin-right: 32px;
+    margin-right: 28px;
     color: #666;
 }
 
@@ -85,13 +86,20 @@ section .select h2:after {
     margin-right: 0;
 }
 
-.select ul li.on {
+.select ul li a.on {
     font-weight: 500;
-    color: #141414;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background: #006633;
 }
 
 .select ul li a {
     font-size: 14px;
+}
+
+.select ul li a:hover {
+    color: #ccc;
 }
 
 /* list */
@@ -125,10 +133,19 @@ section .select h2:after {
 
 /* more btn */
 .more {
+    margin: 0 auto;
     text-align: center;
     padding: 20px 0;
     color: #666;
+    border-radius: 10px;
     background: #f1f1f1;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+.more:hover {
+    color: #fff;
+    background: #006633;
 }
 
 /* insights html end */

@@ -15,6 +15,11 @@ sub text : #666;
 
 */
 
+/* a tag hover */
+a:hover {
+    color: #006633;
+}
+
 /* nav */
 body {
     padding-top: 120px;
@@ -240,7 +245,7 @@ footer .ftop .left ul li a {
 }
 
 footer .ftop .left ul li a:hover {
-    color: skyblue;
+    color: #00ce67;
 }
 
 /* ftop right */
